@@ -24,6 +24,14 @@
   }
 }
 
+.text-positive {
+  @apply text-green-500;
+}
+
+.text-negative {
+  @apply text-red-500;
+}
+
 .price-up {
   @apply text-positive;
   animation: flash-green 0.5s ease-in-out;
